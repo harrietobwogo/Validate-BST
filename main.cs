@@ -5,7 +5,7 @@ class MainClass {
     Console.WriteLine ("Hello World");
   }
 
-  public static bool ValidateBst(TreeNode root, int min,int max){
+  public static bool ValidateBst(TreeNode root, long min,long max){
     bool valid=true;
 
     if(root==null){
@@ -24,7 +24,7 @@ class MainClass {
     return valid;
   }
   public static bool ValidBST(TreeNode root){
-    return ValidateBst(root,int.MinValue, int.MaxValue);
+    return ValidateBst(root,int64.MinValue, int64.MaxValue);
   }
 }
   public class TreeNode {
