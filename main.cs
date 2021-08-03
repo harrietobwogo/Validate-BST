@@ -24,7 +24,7 @@ class MainClass {
     return valid;
   }
   public static bool ValidBST(TreeNode root){
-    return ValidateBst(root,int64.MinValue, int64.MaxValue);
+    return ValidateBst(root,Int64.MinValue, Int64.MaxValue);
   }
 }
   public class TreeNode {
